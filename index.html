@@ -3,11 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>My Recipes Webpage</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <style>
+            p {
+                background-color: darksalmon;
+                color:white;
+                font-size:18px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <div>Odin Recipes</div>
+        
         <ul>
-            <li><a href="./recipes/lasagna.html">Lasagna Recipe</a></li>
+            <button id="myButton" style="color:white; background-color:darkslategray; font-size:18px;">Lasagna Recipe</button>
+            <script type="text/javascript">
+                document.getElementById("myButton").onclick = function (){
+                    location.href = "./recipes/lasagna.html";
+                };
+            </script>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan gravida diam, et placerat est vestibulum non. Pellentesque ipsum purus, lacinia in eleifend nec, lacinia non lectus. Curabitur tristique augue id velit faucibus, sit amet commodo leo maximus. Donec ornare sapien massa, quis gravida tortor molestie nec. Integer ligula orci, cursus a neque a, bibendum egestas ex. Aliquam semper ut magna id posuere. Pellentesque dapibus et mi nec ultrices. Phasellus accumsan placerat felis, at rhoncus orci lobortis ac. Morbi urna augue, pretium sit amet arcu vitae, fringilla vulputate tellus. Nulla non ultricies odio. Aliquam et turpis tincidunt, laoreet est et, ullamcorper ligula. In mollis malesuada orci, a pretium nisi convallis non. Pellentesque non mattis odio, eu interdum urna. Morbi ullamcorper elit ut neque efficitur condimentum. Proin commodo tincidunt justo, vitae venenatis orci hendrerit a. Nullam id tellus ligula.</p>
             <li><a href="./recipes/bulgogi.html">Bulgogi Recipe</a></li>
             <li><a href="./recipes/burger.html">Burger Recipe</a></li>
         </ul>
