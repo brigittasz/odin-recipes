@@ -11,7 +11,7 @@ Skills utilised include:
 
 Continued Practice Assignments:
 
-* Methods for Adding CSS
+1. Methods for Adding CSS
     -link external CSS file in the HTML file
     -div element have CSS added via the external method
     -p element have CSS added via the internal method
